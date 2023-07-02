@@ -1,7 +1,23 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Ross Giovanniello</h1>
-<p>This is the home of Ross Giovanniello on the internet, hosted by github.pages</p>
-</body>
-</html>
+---
+title: Home
+excerpt: The content on this domain is the sole property of Ross Giovanniello
+show_sidebar: true
+layout: base
+---
+
+{% if page.show_sidebar %}
+  <div class="sidebar">
+    <h3>Welcome</h3>
+  </div>
+{% endif %}
+<h1>{{ "RossGiovanniello.com" | downcase }}</h1>
+<p>This is the homepage for {{ "ross " | capitalize }} {{ "giovanniello" | capitalize }} on the internet, hosted by {{"Github Pages" | downcase}} </p>
+<p> {{ page.excerpt }}</p>
+<footer>
+  <p>&copy; rossgiovanniello.com</p>
+</footer>
+
+
+
+
+
