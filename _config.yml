@@ -1,5 +1,6 @@
 collections:
   authors:
-
+  dogs:
+    output: true
 
 
