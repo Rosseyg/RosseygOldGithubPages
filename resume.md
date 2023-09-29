@@ -5,7 +5,8 @@ title: Resume
 
 # Resume
 
+2023 - present : Entrepanuer, Partner, and Minister.
 
-2020 - Present :  Foamsys LSA factory plc integration, user interface programming, system turnkey and testing.
+2020 - 2022 :  Foamsys LSA factory PLC progamming and SCADA system integration.
 
-2016 - 2018 :  Coyote plc based sprayfoam delivery system.
+2016 - 2018 :  Coyote PLC based polymer delivery system.
