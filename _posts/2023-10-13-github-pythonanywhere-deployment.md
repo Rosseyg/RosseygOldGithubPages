@@ -3,7 +3,7 @@ layout: post
 author: ross
 ---
 
-# Simple web app deployment for simple programs
+# Web app deployment for simple programs
 
 ## Highlights
 

@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-10T23:08:05-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Inside A Vfd</title><link href="http://localhost:4000/2023/07/02/inside-a-vfd.html" rel="alternate" type="text/html" title="Inside A Vfd" /><published>2023-07-02T00:00:00-04:00</published><updated>2023-07-02T00:00:00-04:00</updated><id>http://localhost:4000/2023/07/02/inside-a-vfd</id><content type="html" xml:base="http://localhost:4000/2023/07/02/inside-a-vfd.html"><![CDATA[<p>Inside a Variable Frequency Drive (VFD), the DC switching aspect plays a crucial role in converting the incoming AC power into DC power, which is then used to generate the variable frequency and voltage output required to control the speed of an induction motor. Here’s a general explanation of the DC switching aspect in a VFD:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-16T20:52:37-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Github Pythonanywhere Deployment</title><link href="http://localhost:4000/2023/10/13/github-pythonanywhere-deployment.html" rel="alternate" type="text/html" title="Github Pythonanywhere Deployment" /><published>2023-10-13T00:00:00-04:00</published><updated>2023-10-13T00:00:00-04:00</updated><id>http://localhost:4000/2023/10/13/github-pythonanywhere-deployment</id><content type="html" xml:base="http://localhost:4000/2023/10/13/github-pythonanywhere-deployment.html"><![CDATA[<h1 id="web-app-deployment-for-simple-programs">Web app deployment for simple programs</h1>
+
+<h2 id="highlights">Highlights</h2>
+
+<ul>
+  <li>Intermediate level</li>
+  <li>Python language</li>
+  <li>Github version control</li>
+  <li>Pythonanywhere execution environment</li>
+  <li>Django and Django ORM with sqlite</li>
+</ul>
+
+<h3 id="overall">Overall</h3>
+
+<ol>
+  <li>Initialize private Github repo and invite collaborators</li>
+  <li>Create /scripts folder for automated programs</li>
+  <li>Create Django project to utilize Django ORM to interact with database</li>
+  <li>Pull repo into Pythonanywhere and configure tasks to run</li>
+</ol>
+
+<p>This approach is idea for small projects with junior to mid-level python developers yet can scale if needed.  The free tiers on Github and Pythonanywhere offer version control and one daily task respectively, enough to get started at no up-front cost.  Using the Django web framework can be used internally to store and process data and can be scaled to a full featured web app if needed</p>
+
+<h2 id="code-samples">Code samples</h2>
+<h3 id="create-and-use-virtual-environment-on-mac">Create and use virtual environment on mac</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3.X -m venv myVenv
+source myVenv/bin/activate
+</code></pre></div></div>
+<p>###</p>]]></content><author><name>ross</name></author><summary type="html"><![CDATA[Web app deployment for simple programs]]></summary></entry><entry><title type="html">Inside A Vfd</title><link href="http://localhost:4000/2023/07/02/inside-a-vfd.html" rel="alternate" type="text/html" title="Inside A Vfd" /><published>2023-07-02T00:00:00-04:00</published><updated>2023-07-02T00:00:00-04:00</updated><id>http://localhost:4000/2023/07/02/inside-a-vfd</id><content type="html" xml:base="http://localhost:4000/2023/07/02/inside-a-vfd.html"><![CDATA[<p>Inside a Variable Frequency Drive (VFD), the DC switching aspect plays a crucial role in converting the incoming AC power into DC power, which is then used to generate the variable frequency and voltage output required to control the speed of an induction motor. Here’s a general explanation of the DC switching aspect in a VFD:</p>
 
 <ol>
   <li>
